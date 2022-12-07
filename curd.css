@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container h1{
+    background-color: rgba(0, 0, 0, 0.966);
+    border-radius: 20px;
+    color: white;
+    width: 400px;
+    height: 60px;
+    /* margin: 10px 0; */
+    text-align: center;
+}
+.container form , table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0;
+    flex-direction:column ;
+    
+}
+label{
+    /* display: flex; */
+    font-size: 20px ;
+}
+
+input{
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(0, 128, 0);
+    border-radius: 8px;
+}
+
+.table tr th{
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+
+.table tr{
+    text-align: center;
+}
